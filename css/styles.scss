@@ -1,0 +1,152 @@
+$iris: #4D5AE5;
+$navy-blue: #2E2F42;
+$cloud: #F4F4FD;
+$slate: #434455;
+$white: #FFFFFF;
+$ocean: #404BBF;
+body {
+  font-family: Roboto, sans-serif;
+  color: $slate;
+  background-color: $white;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+footer, .preview-section {
+  background-color: $navy-blue;
+}
+
+header {
+  a {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+
+  address {
+    font-style: normal;
+
+    a {
+      font-weight: 400;
+      color: $slate;
+    }
+  }
+}
+
+nav {
+  a {
+    font-weight: 500;
+    color: $navy-blue;
+  }
+}
+
+.nav-ul-a {
+  &:hover {
+    color: $ocean;
+  }
+
+  &:focus {
+    color: $ocean;
+  }
+}
+
+.header-address-a {
+  &:hover {
+    color: $ocean;
+  }
+
+  &:focus {
+    color: $ocean;
+  }
+}
+
+.preview-section-button {
+  cursor: pointer;
+  background: $iris;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: $white;
+
+  &:hover {
+    background-color: $ocean;
+  }
+
+  &:focus {
+    background-color: $ocean;
+  }
+}
+
+.preview-section-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: $white;
+}
+
+h2, h3 {
+  color: $navy-blue;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.header-page-logo, .footer-page-logo {
+  color: $iris;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+
+.header-page-logo-studio {
+  color: $navy-blue;
+}
+
+.footer-page-logo-studio {
+  color: $cloud;
+}
+
+.footer {
+  p {
+    color: $cloud;
+  }
+}
+
+.our-team-section {
+  background-color: #F4F4FD;
+}
+
+.our-team-section-title, .project-section-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.our-team-section-li {
+  background-color: $white;
+}
