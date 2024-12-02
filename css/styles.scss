@@ -4,6 +4,20 @@ $cloud: #F4F4FD;
 $slate: #434455;
 $white: #FFFFFF;
 $ocean: #404BBF;
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+//h1, h2, h3, h4, h5, h6, p {
+//margin: 0;
+//}
+
+ul, ol {
+  list-style: none;
+  //margin: 0;
+  //padding: 0;
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: $slate;
@@ -128,6 +142,19 @@ p {
   color: $navy-blue;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .footer-page-logo-studio {
   color: $cloud;
 }
@@ -150,3 +177,4 @@ p {
 .our-team-section-li {
   background-color: $white;
 }
+/// test commit
