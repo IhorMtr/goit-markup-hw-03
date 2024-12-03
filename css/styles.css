@@ -274,12 +274,26 @@ header address a {
   margin-bottom: 8px;
 }
 
+.footer-page-logo-studio {
+  color: #F4F4FD;
+}
+
 .footer {
   padding: 100px 0;
 }
 .footer .container {
   display: flex;
   flex-direction: column;
+}
+
+.footer-page-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-paragraph {
+  color: #F4F4FD;
+  max-width: 264px;
 }
 
 /*# sourceMappingURL=styles.css.map */

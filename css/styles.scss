@@ -183,6 +183,8 @@ header {
   font-family: "Raleway", sans-serif;
 }
 
+
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -256,7 +258,7 @@ header {
   }
 }
 .project-section-title{
-    margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 .project-section-wrapper{
   border-bottom: 1px solid $cornflower;
@@ -269,11 +271,22 @@ header {
 .project-section-subtitle{
   margin-bottom: 8px;
 }
+.footer-page-logo-studio {
+  color: $cloud;
+}
+
 .footer {
   padding: 100px 0;
-
-  .container {
+  .container{
     display: flex;
     flex-direction: column;
   }
+}
+.footer-page-logo{
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-paragraph {
+  color: $cloud;
+  max-width: 264px;
 }
