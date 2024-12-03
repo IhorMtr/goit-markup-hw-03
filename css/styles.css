@@ -102,7 +102,7 @@ header address a {
 }
 
 .nav-ul-a {
-  padding: 24px 0 24px;
+  padding: 24px 0;
 }
 
 .header-address-ul {
@@ -113,17 +113,10 @@ header address a {
   width: calc((100% - 40px) / 2);
 }
 
-.nav-ul-a:hover {
+.nav-ul-a:hover, .header-address-a:hover {
   color: #404BBF;
 }
-.nav-ul-a:focus {
-  color: #404BBF;
-}
-
-.header-address-a:hover {
-  color: #404BBF;
-}
-.header-address-a:focus {
+.nav-ul-a:focus, .header-address-a:focus {
   color: #404BBF;
 }
 

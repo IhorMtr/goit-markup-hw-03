@@ -78,7 +78,6 @@ header {
 
 .header-nav{
   display: flex;
-  //gap: 76px;
   align-items: center;
   a {
     font-weight: 500;
@@ -100,7 +99,7 @@ header {
   }
 }
 .nav-ul-a{
-  padding: 24px 0 24px;
+  padding: 24px 0;
 }
 
 .header-address-ul{
@@ -110,16 +109,7 @@ header {
     width: calc((100% - 40px) / 2);
   }
 }
-.nav-ul-a {
-  &:hover {
-    color: $ocean;
-  }
-
-  &:focus {
-    color: $ocean;
-  }
-}
-.header-address-a {
+.nav-ul-a, .header-address-a  {
   &:hover {
     color: $ocean;
   }
