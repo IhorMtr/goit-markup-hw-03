@@ -174,7 +174,7 @@ header address a {
   background-color: #404BBF;
 }
 
-.header-page-logo, .footer-page-logo {
+.header-page-logo {
   color: #4D5AE5;
   font-weight: 700;
   font-size: 18px;
@@ -274,10 +274,6 @@ header address a {
   margin-bottom: 8px;
 }
 
-.footer-page-logo-studio {
-  color: #F4F4FD;
-}
-
 .footer {
   padding: 100px 0;
 }
@@ -286,9 +282,20 @@ header address a {
   flex-direction: column;
 }
 
-.footer-page-logo {
+.footer-logo-link {
   display: inline-block;
   margin-bottom: 16px;
+  color: #4D5AE5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer-logo-link-studio {
+  color: #F4F4FD;
 }
 
 .footer-paragraph {
