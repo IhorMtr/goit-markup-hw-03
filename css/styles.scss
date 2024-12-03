@@ -4,35 +4,53 @@ $cloud: #F4F4FD;
 $slate: #434455;
 $white: #FFFFFF;
 $ocean: #404BBF;
+$dairy: #FCFCFC;
+$cornflower: #E7E9FC;
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
-//h1, h2, h3, h4, h5, h6, p {
-//margin: 0;
-//}
-
-ul, ol {
-  list-style: none;
-  //margin: 0;
-  //padding: 0;
-}
-
 body {
   font-family: Roboto, sans-serif;
   color: $slate;
   background-color: $white;
 }
-
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+img{
+  display: block;
+}
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
 a {
   text-decoration: none;
 }
-
-
+h2, h3 {
+  color: $navy-blue;
+  letter-spacing: 0.02em;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
 footer, .preview-section {
   background-color: $navy-blue;
 }
-
 header {
   a {
     font-size: 16px;
@@ -49,14 +67,12 @@ header {
     }
   }
 }
-
 nav {
   a {
     font-weight: 500;
     color: $navy-blue;
   }
 }
-
 .nav-ul-a {
   &:hover {
     color: $ocean;
@@ -66,7 +82,6 @@ nav {
     color: $ocean;
   }
 }
-
 .header-address-a {
   &:hover {
     color: $ocean;
@@ -74,6 +89,55 @@ nav {
 
   &:focus {
     color: $ocean;
+  }
+}
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section{
+  padding: 120px 0;
+}
+header{
+  .container{
+    border-bottom: 1px solid $cornflower;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+nav{
+  display: flex;
+  gap: 76px;
+}
+.nav-ul {
+  display: flex;
+  gap: 40px;
+  li{
+    width: calc((100% - 40px) / 3);
+  }
+}
+.header-address{
+  ul{
+    display: flex;
+    gap: 40px;
+    li{
+      width: calc((100% - 40px) / 2);
+    }
+  }
+}
+.preview-section{
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+      margin-bottom: 48px;
+    }
   }
 }
 
@@ -104,30 +168,6 @@ nav {
   color: $white;
 }
 
-h2, h3 {
-  color: $navy-blue;
-  letter-spacing: 0.02em;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 111%;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-}
-
-p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-}
-
 .header-page-logo, .footer-page-logo {
   color: $iris;
   font-weight: 700;
@@ -154,27 +194,88 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.our-principles-section{
+  .container{
+    ul{
+      display: flex;
+      gap: 24px;
+      li{
+        width: calc((100% - 24px) / 4);
+      }
+    }
+  }
+}
+.our-team-section {
+  background-color: #F4F4FD;
+  .container{
+    ul{
+      display: flex;
+      gap: 24px;
+    }
+  }
+}
+.our-team-section-title{
+  margin-bottom: 72px;
+}
+.our-team-section-li{
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc((100% - 24px) / 4);
+  h3{
+    margin-top: 32px;
+    margin-bottom: 8px;
+  }
+  p{
+    margin-bottom: 32px;
+  }
+}
+.our-team-section-title, .project-section-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+.project-section {
+  .container{
+    ul{
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 48px;
+      column-gap: 24px;
+    }
+  }
+}
+.project-section-title{
+    margin-bottom: 72px;
+}
+.project-section-wrapper{
+  border-bottom: 1px solid $cornflower;
+  border-left: 1px solid $cornflower;
+  border-right: 1px solid $cornflower;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 
 .footer-page-logo-studio {
   color: $cloud;
 }
 
 .footer {
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    a{
+      margin-top: 100px;
+    }
+  }
   p {
     color: $cloud;
+    margin-bottom: 100px;
+    width: 264px;
   }
 }
-
-.our-team-section {
-  background-color: #F4F4FD;
-}
-
-.our-team-section-title, .project-section-title {
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.our-team-section-li {
-  background-color: $white;
-}
-/// test commit
