@@ -174,7 +174,7 @@ header address a {
   background-color: #404BBF;
 }
 
-.header-page-logo {
+.header-page-logo, .footer-page-logo {
   color: #4D5AE5;
   font-weight: 700;
   font-size: 18px;
@@ -280,27 +280,6 @@ header address a {
 .footer .container {
   display: flex;
   flex-direction: column;
-}
-
-.footer-logo-link {
-  display: inline-block;
-  margin-bottom: 16px;
-  color: #4D5AE5;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-}
-
-.footer-logo-link-studio {
-  color: #F4F4FD;
-}
-
-.footer-paragraph {
-  color: #F4F4FD;
-  max-width: 264px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -173,7 +173,7 @@ header {
 
 
 
-.header-page-logo{
+.header-page-logo, .footer-page-logo {
   color: $iris;
   font-weight: 700;
   font-size: 18px;
@@ -276,24 +276,4 @@ header {
     display: flex;
     flex-direction: column;
   }
-}
-.footer-logo-link {
-  display: inline-block;
-  margin-bottom: 16px;
-  color: $iris;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-}
-
-.footer-logo-link-studio {
-  color: $cloud;
-}
-
-.footer-paragraph {
-  color: $cloud;
-  max-width: 264px;
 }
