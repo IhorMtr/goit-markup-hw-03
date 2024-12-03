@@ -235,7 +235,7 @@ header address a {
   align-items: center;
   width: calc((100% - 24px) / 4);
 }
-.our-team-list-item img {
+.our-team-list-item:first-child {
   border-radius: 0 0 4px 4px;
 }
 
@@ -292,12 +292,14 @@ header address a {
   display: flex;
   flex-direction: column;
 }
-.footer .container a {
+
+.footer-page-logo {
   margin-top: 100px;
   display: inline-block;
   margin-bottom: 16px;
 }
-.footer p {
+
+.footer-paragraph {
   color: #F4F4FD;
   max-width: 264px;
 }
