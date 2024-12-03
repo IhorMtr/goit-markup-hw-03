@@ -281,10 +281,6 @@ header address a {
 .footer {
   padding: 100px 0;
 }
-.footer .container {
-  display: flex;
-  flex-direction: column;
-}
 
 .footer-page-logo {
   display: inline-block;
